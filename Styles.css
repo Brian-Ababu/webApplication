@@ -1,0 +1,68 @@
+h1{
+    color: rosybrown;
+    font-size: 42px;
+    font-style: inherit;
+}
+
+h2{
+    color: royalblue;
+    font-size: 30px;
+    font-style: italic;
+}
+button{
+    color: blue;
+    box-sizing: content-box;
+}
+img{
+    width: 500px;
+    border-radius: 50px;
+}
+p.username{
+    font-weight: bold;
+}
+
+img.userid{
+    width: 50px;
+    border-radius: 50px;
+    float: left;
+    margin-right: 10px;
+}
+
+#header{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 5px;
+}
+
+#navbar{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+}
+
+#sideleft{
+    height: 800px;
+    width: 20%;
+    background-color: aquamarine;
+    margin: 5px;
+    float: left;
+    border-radius: 10px;
+}
+
+#maincontent{
+    height: 800px;
+    width: 78%;
+    background-color: aqua;
+    margin: 5px;
+    float: right;
+    border-radius: 10px;
+}
+
+#footer{
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    margin-bottom: 5px;
+    float: left;
+}
