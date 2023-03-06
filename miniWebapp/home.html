@@ -6,7 +6,333 @@
     <title>Home Page</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body style="display: flex; min-height: 100vh; flex-direction: column; min-width: 100vh;">
+    <nav class="navbar navbar-expand-lg bg-body-success" style="background-color: #e3f2fd;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="Images/Balllogo2.jfif" alt="Bootstrap" width="60" height="54">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contactus.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="social.html">Social</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="history.html">History</a>
+                    </li>
+                </ul>
+    
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid p-5 bg-primary text-white text-left" style="flex: 4; min-width: 100vh;">
+        <p>
+            The NBA is the most prolific league in Basketball.
+            It has seen some of the best people to ever play the game.
+            From the likes of Michael Jordan to Lebron James, Stephen Curry and
+            even the 'Sky walker' Ja Morant. The league has clebrated 76 years of
+            existance and has produced some amazing talent. Here you will see the current
+            standings in both conferences and a team stat of the top ten teams.
+        </p>
+        <h3>Eastern Conference</h3>
+        <table class="table border table-striped table-hover table-success" >
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Team</th>
+                <th>Win</th>
+                <th>Loss</th>
+                <th>Streak</th>
+                <th>Points Per Game</th>
+                <th>Last10</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Bucks.png" alt="bootstrap" width="50" height="35">
+                </td>
+                <td>Milwaukee Bucks</td>
+                <td>46</td>
+                <td>18</td>
+                <td>W1</td>
+                <td>115.6</td>
+                <td>9-1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Celtics.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Boston Celtics </td>
+                <td>45</td>
+                <td>20</td>
+                <td>L2</td>
+                <td>112.4	</td>
+                <td>6-4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/76ers.png" alt="bootstrap" width="50" height="35">
+                </td>
+                <td>Philadelphia 76ers</td>
+                <td>41</td>
+                <td>22</td>
+                <td>W1</td>
+                <td>110.7</td>
+                <td>7-3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Cavaliers.png" alt="bootstrap" width="30" height="35">
+                </td>
+                <td>Cleveland Cavaliers</td>
+                <td>40</td>
+                <td>26</td>
+                <td>W1</td>
+                <td>106.4</td>
+                <td>6-4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/New York Knicks.png" alt="bootstrap" width="50" height="35">
+                </td>
+                <td>New York Knicks</td>
+                <td>39</td>
+                <td>27</td>
+                <td>W9</td>
+                <td>112.4	</td>
+                <td>9-1</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Brooklyn Nets.jpg" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Brooklyn Nets</td>
+                <td>36</td>
+                <td>28</td>
+                <td>W2</td>
+                <td>112.9</td>
+                <td>4-6</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Miami-Heat-logo.png" alt="bootstrap" width="50" height="35">
+                </td>
+                <td>Miami Heat</td>
+                <td>34</td>
+                <td>31</td>
+                <td>W1</td>
+                <td>108.8</td>
+                <td>4-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Atlanta Hawks.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Atlanta Hawks</td>
+                <td>32</td>
+                <td>32</td>
+                <td>L1</td>
+                <td>116.9</td>
+                <td>5-5</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Toronto_Raptors-Logo.png" alt="bootstrap" width="50" height="35">
+                </td>
+                <td>Toronto Raptors</td>
+                <td>32</td>
+                <td>33</td>
+                <td>W1</td>
+                <td>112.0</td>
+                <td>7-3</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/washington-wizards-logo.jfif" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Washington Wizards</td>
+                <td>30</td>
+                <td>34</td>
+                <td>L2</td>
+                <td>113.3</td>
+                <td>5-5</td>
+            </tr>
+        </table>
+        <br>
+        <h3>Western Conference</h3>
+        <table class="table border table-striped table-hover table-success" >
+            <tr>
+                <th></th>
+                <th></th>
+                <th>Team</th>
+                <th>Win</th>
+                <th>Loss</th>
+                <th>Streak</th>
+                <th>Points Per Game</th>
+                <th>Last10</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Denver-Nuggets-Logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Denver Nuggets</td>
+                <td>45</td>
+                <td>19</td>
+                <td>W3</td>
+                <td>117.1</td>
+                <td>8-2</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Memphis Grizzllies logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Memphis Grizzlies</td>
+                <td>38</td>
+                <td>35</td>
+                <td>L2</td>
+                <td>115.8</td>
+                <td>6-4</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Sacramento Kings Logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Sacramento Kings</td>
+                <td>37</td>
+                <td>26</td>
+                <td>L1</td>
+                <td>121.1</td>
+                <td>7-3</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Pheonix Suns Logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Phoenix Suns</td>
+                <td>36</td>
+                <td>29</td>
+                <td>W3</td>
+                <td>113.0</td>
+                <td>9-1</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/GSW Logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Golden State Warriors</td>
+                <td>34</td>
+                <td>31</td>
+                <td>L1</td>
+                <td>118.0</td>
+                <td>6-4</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Minnesota Timberwolves Logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Minnesota Timberwolves</td>
+                <td>34</td>
+                <td>32</td>
+                <td>W3</td>
+                <td>115.6</td>
+                <td>5-5</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Dallas-mavericks-logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Dallas Mavericks</td>
+                <td>33</td>
+                <td>32</td>
+                <td>L1</td>
+                <td>113.2</td>
+                <td>4-6</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/LA_Clippers_logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>LA Clippers</td>
+                <td>34</td>
+                <td>33</td>
+                <td>W1</td>
+                <td>113.0</td>
+                <td>3-7</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Pelicans-logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>New Orleans Pelicans</td>
+                <td>31</td>
+                <td>33</td>
+                <td>L1</td>
+                <td>113.4</td>
+                <td>4-6</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td style="width: 30; height: 15;">
+                    <img src="Images/Utah Jazz logo.png" alt="bootstrap" width="40" height="35">
+                </td>
+                <td>Utah Jazz</td>
+                <td>31</td>
+                <td>34</td>
+                <td>L3</td>
+                <td>117.0</td>
+                <td>4-6</td>
+            </tr>
+        </table>
+        <p style="color: black; font-size: x-small;">tables courtesy of ESPN</p>
+    </div>    
     
 </body>
 </html>
