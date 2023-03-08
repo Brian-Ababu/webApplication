@@ -3,10 +3,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Navbar</title>
+    <title>Message</title>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 </head>
-<body>
+<body style="display: flex; min-height: 100vh; flex-direction: column;">
     <nav class="navbar navbar-expand-lg sticky-top bg-body-success" style="background-color: #e3f2fd;">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">
@@ -21,16 +21,16 @@
                 <a class="nav-link active" aria-current="page" href="home.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
+                <a class="nav-link active" aria-current="page" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                <a class="nav-link active" aria-current="page" href="contactus.html">Contact</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Social</a>
+                <a class="nav-link active" aria-current="page" href="social.html">Social</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">History</a>
+                <a class="nav-link active" aria-current="page" href="history.html">History</a>
               </li>
             </ul>
             <form class="d-flex" role="search">
@@ -39,6 +39,13 @@
             </form>
           </div>
         </div>
-      </nav> 
+      </nav>
+    <div class="container-fluid p-5 bg-info text-dark text-left" style="flex: 4;">
+        <div class="col-md-5 offset-md-4">
+          <p>
+            Your details have been saved successfully. We will shoot you an email with your answers and further instructions.
+          </p>
+        </div>  
+    </div>   
 </body>
 </html>
